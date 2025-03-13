@@ -1,7 +1,7 @@
 /* Styles généraux */
 .titre {
     color: #000000;
-    position: fixed;
+    position: auto;
     top: 5%;
     left: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
