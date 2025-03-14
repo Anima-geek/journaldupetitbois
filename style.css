@@ -6,7 +6,7 @@
 .titre {
     color: #000000;
     position: fixed;
-    top: 12vh; /* Utilise vh pour la position */
+    top: 20vh; /* Utilise vh pour la position */
     left: 50%; /* Centrer horizontalement */
     transform: translateX(-50%); /* Ajuster pour centrer */
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -14,6 +14,7 @@
     height: auto; /* Utilise auto pour la hauteur */
     font-size: 6vw; /* Utilise vw pour la taille de la police */
     text-align: center; /* Centrer le texte */
+    margin-top: 10vh;
 }
 
 .accueil {
@@ -42,9 +43,9 @@
     flex-direction: row; /* Remet les boutons en ligne */
     justify-content: center; /* Centrer les boutons horizontalement */
     align-items: center; /* Centrer les boutons verticalement */
-    font-size: 3vw; /* Utilise vw pour la taille de la police */
+    font-size: 4vw; /* Utilise vw pour la taille de la police */
     width: 100vw; /* Utilise vw pour la largeur */
-    margin: 0; /* Supprime les marges */
+    margin-top: 5vh; /* Supprime les marges */
     padding: 0; /* Supprime les paddings */
     list-style: none; /* Supprime les puces */
 }
@@ -59,6 +60,6 @@
 }
 
 .main {
-    color: orange;
+    color: rgba(255, 157, 30, 0.779);
     text-decoration: none;
 }
