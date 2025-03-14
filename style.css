@@ -40,20 +40,22 @@
 .menu-nav {
     display: flex; /* Ajoute display: flex pour les éléments de menu */
     flex-direction: row; /* Remet les boutons en ligne */
-    justify-content: space-evenly;
+    justify-content: center; /* Centrer les boutons horizontalement */
+    align-items: center; /* Centrer les boutons verticalement */
     font-size: 3vw; /* Utilise vw pour la taille de la police */
-    margin-top: 1vh; /* Utilise vh pour la marge */
     width: 100vw; /* Utilise vw pour la largeur */
+    margin: 0; /* Supprime les marges */
+    padding: 0; /* Supprime les paddings */
+    list-style: none; /* Supprime les puces */
+}
+
+.menu-nav li {
+    margin: 0 1vw; /* Ajoute une marge entre les boutons */
 }
 
 .menu-nav li:hover {
     transform: scale(1.2); /* Transformation plus douce */
     transition: 0.5s;
-}
-
-li {
-    list-style: none;
-    display: inline-block;
 }
 
 .main {
