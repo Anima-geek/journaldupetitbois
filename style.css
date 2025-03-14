@@ -6,7 +6,7 @@
 .titre {
     color: #000000;
     position: fixed;
-    top: 15vh; /* Utilise vh pour la position */
+    top: 14vh; /* Utilise vh pour la position */
     left: 50%; /* Centrer horizontalement */
     transform: translateX(-50%); /* Ajuster pour centrer */
     font-family: Georgia, 'Times New Roman', Times, serif;
