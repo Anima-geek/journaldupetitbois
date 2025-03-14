@@ -1,9 +1,14 @@
 /* Styles généraux */
+
+
+.flex {display: flex;}
+
+
 .titre {
     color: #000000;
-    position: auto;
-    top: 5%;
-    left: 10%;
+    position: fixed;
+    top: 15%;
+    left: 30%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: auto; /* Ajustement pour une meilleure adaptation */
     height: auto;
@@ -14,13 +19,16 @@
 }
 
 .logo1 {
-    width: auto; /* Ajustement pour une meilleure adaptation */
-    height: auto; /* Pour maintenir les proportions de l'image */
+    position: fixed;
+    width: 35vw; /* Ajustement pour une meilleure adaptation */
+    height: 50vh; /* Pour maintenir les proportions de l'image */
+    top: 30%;
+    left: 29%;
 }
 
 .header {
     width: 100%; /* Utilise 100% pour une largeur pleine */
-    height: auto; /* Ajustement pour une meilleure adaptation */
+    height: 100%; /* Ajustement pour une meilleure adaptation */
     flex-direction: column;
 }
 
@@ -70,4 +78,5 @@ li {
 
     .logo1 {
         width: auto; /* Ajustement pour une meilleure adaptation */
-        height
+        height: auto; 
+    }
