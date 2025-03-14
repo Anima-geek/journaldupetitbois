@@ -1,17 +1,19 @@
 /* Styles généraux */
-
-
-.flex {display: flex;}
-
+.flex {
+    display: flex;
+}
 
 .titre {
     color: #000000;
     position: fixed;
-    top: 15%;
-    left: 30%;
+    top: 10vh; /* Utilise vh pour la position */
+    left: 50%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Ajuster pour centrer */
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: auto; /* Ajustement pour une meilleure adaptation */
-    height: auto;
+    width: auto; /* Laisser la largeur auto */
+    height: auto; /* Utilise auto pour la hauteur */
+    font-size: 4vw; /* Utilise vw pour la taille de la police */
+    text-align: center; /* Centrer le texte */
 }
 
 .accueil {
@@ -20,22 +22,28 @@
 
 .logo1 {
     position: fixed;
-    width: 35vw; /* Ajustement pour une meilleure adaptation */
-    height: 50vh; /* Pour maintenir les proportions de l'image */
-    top: 30%;
-    left: 29%;
+    width: 35vw; /* Utilise vw pour la largeur */
+    height: auto; /* Utilise auto pour la hauteur */
+    top: 30vh; /* Utilise vh pour la position */
+    left: 50%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Ajuster pour centrer */
 }
 
 .header {
-    width: 100%; /* Utilise 100% pour une largeur pleine */
-    height: 100%; /* Ajustement pour une meilleure adaptation */
+    width: 100vw; /* Utilise vw pour une largeur pleine */
+    height: auto; /* Utilise auto pour la hauteur */
     flex-direction: column;
+    position: fixed; /* Fixer la position pour les boutons */
+    top: 0; /* Ajuster la position si nécessaire */
 }
 
 .menu-nav {
+    display: flex; /* Ajoute display: flex pour les éléments de menu */
+    flex-direction: row; /* Remet les boutons en ligne */
     justify-content: space-evenly;
-    font-size: 25px;
-    margin-top: 1%;
+    font-size: 3vw; /* Utilise vw pour la taille de la police */
+    margin-top: 1vh; /* Utilise vh pour la marge */
+    width: 100vw; /* Utilise vw pour la largeur */
 }
 
 .menu-nav li:hover {
@@ -52,31 +60,3 @@ li {
     color: white;
     text-decoration: none;
 }
-
-/* Styles spécifiques pour les petits écrans */
-@media (max-width: 768px) {
-    .titre {
-        font-size: 18px;
-        top: 10%;
-        left: 5%;
-    }
-
-    .header {
-        height: auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .menu-nav {
-        flex-direction: column;
-        font-size: 20px;
-    }
-
-    .menu-nav li:hover {
-        transform: scale(1.1);
-    }
-
-    .logo1 {
-        width: auto; /* Ajustement pour une meilleure adaptation */
-        height: auto; 
-    }
