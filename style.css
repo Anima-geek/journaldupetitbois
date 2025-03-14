@@ -25,7 +25,7 @@
     position: fixed;
     width: 35vw; /* Utilise vw pour la largeur */
     height: auto; /* Utilise auto pour la hauteur */
-    top: 30vh; /* Utilise vh pour la position */
+    top: 35vh; /* Utilise vh pour la position */
     left: 50%; /* Centrer horizontalement */
     transform: translateX(-50%); /* Ajuster pour centrer */
 }
