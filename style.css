@@ -23,7 +23,7 @@
 
 .logo1 {
     position: fixed;
-    width: 35vw; /* Utilise vw pour la largeur */
+    width: 40vw; /* Utilise vw pour la largeur */
     height: auto; /* Utilise auto pour la hauteur */
     top: 35vh; /* Utilise vh pour la position */
     left: 50%; /* Centrer horizontalement */
