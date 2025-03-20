@@ -5,8 +5,8 @@
 
 .titre {
     color: #000000;
-    position: fixed;
-    top: 14vh; /* Utilise vh pour la position */
+    position: absolute;
+    top: 15vh; /* Utilise vh pour la position */
     left: 50%; /* Centrer horizontalement */
     transform: translateX(-50%); /* Ajuster pour centrer */
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,10 +19,11 @@
 
 .accueil {
     background-color: rgb(233, 197, 197);
+    min-height: 150vh; /* Ajouter une hauteur minimale */
 }
 
 .logo1 {
-    position: fixed;
+    position: absolute;
     width: 40vw; /* Utilise vw pour la largeur */
     height: auto; /* Utilise auto pour la hauteur */
     top: 35vh; /* Utilise vh pour la position */
@@ -34,7 +35,7 @@
     width: 100vw; /* Utilise vw pour une largeur pleine */
     height: auto; /* Utilise auto pour la hauteur */
     flex-direction: column;
-    position: fixed; /* Fixer la position pour les boutons */
+    position: absolute; /* Fixer la position pour les boutons */
     top: 0; /* Ajuster la position si nécessaire */
 }
 
@@ -63,3 +64,24 @@
     color: rgba(255, 157, 30, 0.779);
     text-decoration: none;
 }
+
+.bienvenue {
+    position: absolute;
+    top: 119vh; /* Utilise vh pour la position */
+    font-size: 5vw; /* Utilise vw pour la taille de la police */
+    font-family: "Montserrat Underline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center; /* Centrer le texte */
+} 
+
+body {
+    overflow-y: scroll; /* Force l'ascenseur vertical */
+    height: auto; /* S'assurer que le body s'adapte au contenu */
+
+}
+
+
+
+
