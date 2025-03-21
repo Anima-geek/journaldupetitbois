@@ -95,6 +95,7 @@ body {
 .labyrinthe{
     position: absolute;
     top:30vh ;
+    height:auto;
 }
 
 
