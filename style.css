@@ -6,7 +6,7 @@
 .titre {
     color: #000000;
     position: absolute;
-    top: 15vh; /* Utilise vh pour la position */
+    top: 10vh; /* Utilise vh pour la position */
     left: 50%; /* Centrer horizontalement */
     transform: translateX(-50%); /* Ajuster pour centrer */
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,7 +26,7 @@
     position: absolute;
     width: 40vw; /* Utilise vw pour la largeur */
     height: auto; /* Utilise auto pour la hauteur */
-    top: 35vh; /* Utilise vh pour la position */
+    top: 30vh; /* Utilise vh pour la position */
     left: 50%; /* Centrer horizontalement */
     transform: translateX(-50%); /* Ajuster pour centrer */
 }
@@ -67,14 +67,13 @@
 
 .bienvenue {
     position: absolute;
-    top: 97vh; /* Utilise vh pour la position */
+    top: 60vh; /* Utilise vh pour la position */
     font-size: 5vw; /* Utilise vw pour la taille de la police */
     font-family: "Montserrat Underline", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
     text-align: center; /* Centrer le texte */
-
     background-image: url('doc/journalbg2.jpg'); /* Remplace par le lien ou le chemin vers ton image */
     background-size: cover; /* Ajuste l'image pour qu'elle couvre tout */
     background-repeat: no-repeat; /* Évite que l'image se répète */
@@ -95,7 +94,7 @@ body {
 .labyrinthe{
     position: absolute;
     top:30vh ;
-    height:auto;
+    height: auto;
 }
 
 
