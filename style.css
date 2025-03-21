@@ -67,13 +67,23 @@
 
 .bienvenue {
     position: absolute;
-    top: 119vh; /* Utilise vh pour la position */
+    top: 97vh; /* Utilise vh pour la position */
     font-size: 5vw; /* Utilise vw pour la taille de la police */
     font-family: "Montserrat Underline", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
     text-align: center; /* Centrer le texte */
+
+    background-image: url('doc/journalbg2.jpg'); /* Remplace par le lien ou le chemin vers ton image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout */
+    background-repeat: no-repeat; /* Évite que l'image se répète */
+    padding: 20px; /* Ajoute de l'espace autour du texte */
+    border: 5px solid #000; /* Une bordure optionnelle */
+    text-align: center; /* Centre le texte */
+    color: #000; /* Couleur du texte */
+    font-size: 1.5rem;
+    border-radius: 10px; /* Ajoute des coins arrondis */
 } 
 
 body {
