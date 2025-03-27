@@ -98,5 +98,17 @@ body {
 }
 
 
+.montecaos{
+    position: absolute;
+    top: 30vh;
+    left: 3vw;
+}
+
+.titre-montecaos{
+    position: absolute;
+    top: 47vh;
+    left: 5vw;
+}
+
 
 
