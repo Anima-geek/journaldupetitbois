@@ -127,36 +127,50 @@ body {
 
 /* La bulle avec une image de fond */
 .construction { 
-    background-image: url("doc/Bulle.png"); /* Chemin vers votre image */
-    background-size: cover; /* L'image s'ajuste au conteneur */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    width: 35vw; /* Largeur relative à l'écran */
-    height: 55vh; /* Hauteur relative à l'écran */
+    width: 30vw; /* Largeur relative à l'écran */
+    height: 50vh; /* Hauteur relative à l'écran */
     position: absolute;
-    left: 4vw; /* Centré horizontalement */
-    top: 10vh; /* Position verticale ajustée */
+    left: 10vw; /* Position horizontale ajustée */
+    top: 30vh; /* Position verticale ajustée */
     display: flex; /* Flexbox pour centrer le contenu */
     align-items: center; /* Centre verticalement */
     justify-content: center; /* Centre horizontalement */
-    transform: scaleX(-1);
-    
 }
 
 .bulle {
-    width: 100%; /* La bulle s'ajuste au conteneur */
+    background-image: url("Doc/Bulle.png"); /* Chemin vers l'image de la bulle */
+    background-size: cover; /* L'image couvre tout le conteneur */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    width: 100%; /* La bulle remplit le conteneur parent */
     height: 100%;
-    text-align: center; /* Centre le texte dans la bulle */
-    transform: scaleX(-1);
+    text-align: center; /* Centre le texte horizontalement */
+    transform: scaleX(-1); /* Inverse uniquement la bulle */
+    display: flex; /* Centrage du texte */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
 }
 
-/* Texte dans la bulle */
 .en-cours {
     font-size: 4vw; /* Taille de police réactive */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
-    text-align: center; /* Centre le texte dans la bulle */
+    color: blue; /* Couleur du texte */
+    transform: scaleX(1); /* Remet le texte dans le bon sens */
+    text-align: center; /* Centre horizontalement le texte */
     padding: 10px; /* Espace autour du texte */
-   
+}
+
+/* Media query pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+    .construction {
+        width: 90vw; /* Ajuste la largeur pour petits écrans */
+        height: 60vh; /* Augmente la hauteur si nécessaire */
+        left: 5vw; /* Réduit l'espacement sur les côtés */
+        top: 20vh; /* Ajuste la position verticale */
+    }
+
+    .en-cours {
+        font-size: 5vw; /* Texte un peu plus grand pour être lisible sur mobile */
+    }
 }
 
 
