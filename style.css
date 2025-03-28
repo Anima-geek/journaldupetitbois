@@ -138,7 +138,7 @@ body {
 }
 
 .bulle {
-    background-image: url(doc/Bulle.png"); /* Chemin vers l'image de la bulle */
+    background-image: url("doc/Bulle.png"); /* Chemin vers l'image de la bulle */
     background-size: cover; /* L'image couvre tout le conteneur */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     width: 100%; /* La bulle remplit le conteneur parent */
