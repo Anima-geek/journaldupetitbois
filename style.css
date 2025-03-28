@@ -129,8 +129,8 @@ body {
     background-image: url("doc/Bulle.png"); /* Chemin vers votre image */
     background-size: cover; /* L'image couvre tout le conteneur */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    width: 90vw; /* Largeur relative à l'écran */
-    height: 50vh; /* Hauteur relative à l'écran */
+    width: 30vw; /* Largeur relative à l'écran */
+    height: 40vh; /* Hauteur relative à l'écran */
     position: absolute;
     left: 5vw; /* Centré horizontalement sur un écran mobile */
     top: 25vh; /* Position verticale ajustée */
