@@ -131,7 +131,7 @@ body {
     background-size: cover; /* L'image s'ajuste au conteneur */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     width: 30vw; /* Largeur relative à l'écran */
-    height: 50vh; /* Hauteur relative à l'écran */
+    height: 10vh; /* Hauteur relative à l'écran */
     position: absolute;
     left: 10vw; /* Centré horizontalement */
     top: 30vh; /* Position verticale ajustée */
@@ -158,4 +158,19 @@ body {
     padding: 10px; /* Espace autour du texte */
    
 }
+
+/* Media query pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+    .construction {
+        width: 90vw; /* Ajuste la largeur pour petits écrans */
+        height: 60vh; /* Augmente la hauteur si nécessaire */
+        left: 5vw; /* Réduit l'espacement sur les côtés */
+        top: 20vh; /* Ajuste la position verticale */
+    }
+
+    .en-cours {
+        font-size: 5vw; /* Texte un peu plus grand pour être lisible sur mobile */
+    }
+}
+
 
