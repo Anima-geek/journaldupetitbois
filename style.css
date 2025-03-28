@@ -127,7 +127,7 @@ body {
 
 /* La bulle avec une image de fond */
 .construction { 
-    background-image: url("Doc/Bulle.png"); /* Chemin vers votre image */
+    background-image: url("doc/Bulle.png"); /* Chemin vers votre image */
     background-size: cover; /* L'image s'ajuste au conteneur */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     width: 30vw; /* Largeur relative à l'écran */
