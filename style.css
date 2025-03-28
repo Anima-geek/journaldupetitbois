@@ -159,16 +159,3 @@ body {
    
 }
 
-/* Media query pour les petits écrans (smartphones) */
-@media (max-width: 768px) {
-    .construction {
-        width: 90vw; /* Ajuste la largeur pour petits écrans */
-        height: 60vh; /* Augmente la hauteur si nécessaire */
-        left: 5vw; /* Réduit l'espacement sur les côtés */
-        top: 20vh; /* Ajuste la position verticale */
-    }
-
-    .en-cours {
-        font-size: 5vw; /* Texte un peu plus grand pour être lisible sur mobile */
-    }
-}
