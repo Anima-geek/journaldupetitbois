@@ -118,3 +118,23 @@ body {
     left: 30vw;
 
 }
+
+.bulle{
+    position: absolute;
+    text-decoration: none; 
+     
+}
+
+.construction{ 
+    background-image: url("Doc/Bulle.png");
+    background-size: 100% 100%;
+    width: 30vw;
+    height: 40vh;
+    position: absolute; left: 50%; right: px; top: 30%;
+}
+
+.en-cours{
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
