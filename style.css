@@ -132,6 +132,7 @@ body {
     position: absolute;
     left: 10vw; /* Position horizontale ajustée */
     top: 30vh; /* Position verticale ajustée */
+    transform: scaleX(-1); /* Inverse uniquement la bulle */
     display: flex; /* Flexbox pour centrer le contenu */
     align-items: center; /* Centre verticalement */
     justify-content: center; /* Centre horizontalement */
@@ -154,10 +155,24 @@ body {
     font-size: 4vw; /* Taille de police réactive */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue; /* Couleur du texte */
-    transform: scaleX(1); /* Remet le texte dans le bon sens */
     text-align: center; /* Centre horizontalement le texte */
     padding: 10px; /* Espace autour du texte */
 }
+
+/* Media query pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+    .construction {
+        width: 90vw; /* Ajuste la largeur pour petits écrans */
+        height: 60vh; /* Augmente la hauteur si nécessaire */
+        left: 5vw; /* Réduit l'espacement sur les côtés */
+        top: 20vh; /* Ajuste la position verticale */
+    }
+
+    .en-cours {
+        font-size: 5vw; /* Texte un peu plus grand pour être lisible sur mobile */
+    }
+}
+
 
 
 
