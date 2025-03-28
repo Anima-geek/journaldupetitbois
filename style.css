@@ -112,3 +112,9 @@ body {
 
 
 
+.bob{
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+
+}
