@@ -124,6 +124,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .construction { 
     background-image: url("doc/Bulle.png"); /* Chemin vers votre image */
     background-size: cover; /* L'image couvre tout le conteneur */
@@ -156,3 +157,7 @@ body {
     text-align: center; /* Centre horizontalement */
     padding: 5px; /* Espace autour du texte */
 }
+
+
+
+
