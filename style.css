@@ -121,8 +121,9 @@ body {
 
 .bulle{
     position: absolute;
-    text-decoration: none; 
-     
+    text-decoration: none;
+    transform: scaleX(-1);
+         
 }
 
 .construction{ 
@@ -130,7 +131,8 @@ body {
     background-size: 100% 100%;
     width: 30vw;
     height: 40vh;
-    position: absolute; left: 50%; right: px; top: 30%;
+    position: absolute; left: 10vw; right: px; top: 30vh;
+    transform: scaleX(-1);
 }
 
 .en-cours{
