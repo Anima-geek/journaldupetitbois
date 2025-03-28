@@ -131,7 +131,7 @@ body {
     background-size: 100% 100%;
     width: 30vw;
     height: 40vh;
-    position: absolute; left: 10vw; right: px; top: 30vh;
+    position: absolute; left: 10vw; right: 15vw; top: 30vh;
     transform: scaleX(-1);
 }
 
