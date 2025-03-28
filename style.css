@@ -130,11 +130,11 @@ body {
     background-image: url("doc/Bulle.png"); /* Chemin vers votre image */
     background-size: cover; /* L'image s'ajuste au conteneur */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    width: 30vw; /* Largeur relative à l'écran */
-    height: 10vh; /* Hauteur relative à l'écran */
+    width: 35vw; /* Largeur relative à l'écran */
+    height: 55vh; /* Hauteur relative à l'écran */
     position: absolute;
-    left: 10vw; /* Centré horizontalement */
-    top: 30vh; /* Position verticale ajustée */
+    left: 4vw; /* Centré horizontalement */
+    top: 10vh; /* Position verticale ajustée */
     display: flex; /* Flexbox pour centrer le contenu */
     align-items: center; /* Centre verticalement */
     justify-content: center; /* Centre horizontalement */
@@ -172,5 +172,3 @@ body {
         font-size: 5vw; /* Texte un peu plus grand pour être lisible sur mobile */
     }
 }
-
-
