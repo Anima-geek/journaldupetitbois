@@ -74,7 +74,7 @@
     font-weight: <weight>;
     font-style: normal;
     text-align: center; /* Centrer le texte */
-    background-image: url('doc/journalbg2.jpg'); /* Remplace par le lien ou le chemin vers ton image */
+    background-image: url('doc/fond.png'); /* Remplace par le lien ou le chemin vers ton image */
     background-size: cover; /* Ajuste l'image pour qu'elle couvre tout */
     background-repeat: no-repeat; /* Évite que l'image se répète */
     padding: 20px; /* Ajoute de l'espace autour du texte */
