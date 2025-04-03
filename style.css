@@ -69,6 +69,7 @@
     position: absolute;
     top: 60vh; /* Utilise vh pour la position */
     font-size: 5vw; /* Utilise vw pour la taille de la police */
+    font-weight: bold;
     font-family: "Montserrat Underline", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
