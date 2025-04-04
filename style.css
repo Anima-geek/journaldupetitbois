@@ -81,7 +81,7 @@
     padding: 20px; /* Ajoute de l'espace autour du texte */
     border: 5px solid #000; /* Une bordure optionnelle */
     text-align: center; /* Centre le texte */
-    color: #000; /* Couleur du texte */
+    color: white; /* Couleur du texte */
     font-size: 1.5rem;
     border-radius: 10px; /* Ajoute des coins arrondis */
 } 
