@@ -141,6 +141,8 @@ body {
     font-size: 5vw; /* Adapte la taille aux écrans mobiles */
     color: #000;
     text-align: center; /* Centre le texte horizontalement */
+    clear: both;
+    margin-top: 20px; /* Espace entre la vidéo et le texte */
 }
 
 
