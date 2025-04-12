@@ -32,10 +32,11 @@
 }
 
 .header {
-    position: absolute; 
-    top: 0; /* Si nécessaire */
-    width: 100%; /* Ajuste à la largeur de la page */
-    z-index: 10; /* Assure leur priorité si nécessaire */
+    width: 100vw; /* Utilise vw pour une largeur pleine */
+    height: auto; /* Utilise auto pour la hauteur */
+    flex-direction: column;
+    position: absolute; /* Fixer la position pour les boutons */
+    top: 0; /* Ajuster la position si nécessaire */
 }
 
 
@@ -87,10 +88,10 @@
 } 
 
 body {
-    overflow-y: scroll; /* Permet le défilement vertical */
-    heightt: auto;
-}
+    overflow-y: scroll; /* Force l'ascenseur vertical */
+    height: auto; /* S'assurer que le body s'adapte au contenu */
 
+}
 
 .labyrinthe{
     position: absolute;
