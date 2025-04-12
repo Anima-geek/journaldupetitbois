@@ -120,7 +120,7 @@ body {
     text-align: center;
     justify-content: center;
     position: absolute;
-    top: 20vh;
+    top: 15vh;
 }
 
 .recette-montecao{
@@ -129,13 +129,13 @@ body {
     text-align: center;
     justify-content: center;
     position: absolute;
-    top: 90vh;
-    left: 56vw;
+    top: 150vh;
+    left: 8vw;
 }
 
 .video-montecao{
     position: absolute;
-    top: 80vh;
+    top: 100vh;
     left: 8vw;
 }
 
