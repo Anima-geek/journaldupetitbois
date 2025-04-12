@@ -101,24 +101,44 @@ body {
 
 .montecaos{
     position: absolute;
-    top: 30vh;
-    left: 3vw;
+    top: 25vh;
+    left: 5vw;
 }
 
 .titre-montecaos{
     position: absolute;
-    top: 47vh;
-    left: 5vw;
+    font-size: 2vw;
+    top: 54vh;
+    left: 6.5vw;
 }
 
-
-
-.bob{
+.presentation{
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    text-align: center;
+    justify-content: center;
     position: absolute;
-    top: 45vh;
-    left: 30vw;
-
+    top: 20vh;
 }
+
+.recette-montecao{
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 90vh;
+    left: 56vw;
+}
+
+.video-montecao{
+    position: absolute;
+    top: 80vh;
+    left: 8vw;
+}
+
 
 /* Style général */
 body {
@@ -126,29 +146,6 @@ body {
     padding: 0;
 }
 
-.construction { 
-    background-image: url("doc/Bulle.png"); /* Chemin vers votre image */
-    background-size: cover; /* L'image couvre tout le conteneur */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    width: 30vw; /* Largeur relative à l'écran */
-    height: 40vh; /* Hauteur relative à l'écran */
-    position: absolute;
-    left: 25vw; /* Centré horizontalement sur un écran mobile */
-    top: 15vh; /* Position verticale ajustée */
-    display: flex; /* Utilise Flexbox pour centrer le contenu */
-    align-items: center; /* Centre verticalement */
-    justify-content: center; /* Centre horizontalement */
-    transform: scaleX(-1); /* Inverse la bulle */
-}
-
-.bulle {
-    width: 100%; /* La bulle s'ajuste au conteneur parent */
-    height: 100%;
-    text-align: center; /* Centre le texte horizontalement */
-    display: flex; /* Centrage du texte */
-    align-items: center; /* Centre verticalement */
-    justify-content: center; /* Centre horizontalement */
-    transform: scaleX(-1);
 }
 
 .en-cours {
@@ -157,6 +154,21 @@ body {
     color: blue; /* Couleur du texte */
     text-align: center; /* Centre horizontalement */
     padding: 5px; /* Espace autour du texte */
+}
+
+
+
+.sticker{
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+}
+
+.titre_sticker{
+    position: absolute;
+    font-size: 2vw;
+    top: 50vh;
+    left: 8.5vw;
 }
 
 
