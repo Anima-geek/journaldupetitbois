@@ -130,14 +130,14 @@ body {
     font-style: normal;
     text-align: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     top: 180vh;
     left: 16vw;
     bottom:10vh;
 }
 
 .video-montecao{
-    position: absolute;
+    position: relative;
     top: 140vh;
     left: 7.5vw;
 }
