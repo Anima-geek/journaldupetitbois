@@ -131,9 +131,10 @@ body {
 }
 
 .video_montecao {
-    width: 100%; /* Ajuste à la taille de l'écran */
-    max-width: 350px;
-    margin-bottom: 20px; /* Ajoute un espace sous la vidéo */
+    width: 90%; /* Réduit légèrement pour un meilleur rendu */
+    max-width: 400px; /* Largeur maximale pour les grands écrans */
+    height: auto; /* Maintient les proportions */
+    margin: 0 auto; /* Centre l'iframe horizontalement */
 }
 
 .recette_montecao {
