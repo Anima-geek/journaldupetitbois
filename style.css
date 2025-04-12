@@ -124,7 +124,7 @@ body {
 }
 
 .recette-montecao{
-    font-size: 5vw;
+    font-size: 10vw;
     font-family: "Cookie", cursive;
     font-weight: 400;
     font-style: normal;
@@ -132,7 +132,7 @@ body {
     justify-content: center;
     position: absolute;
     top: 150vh;
-    left: 8vw;
+    left: 15vw;
 }
 
 .video-montecao{
