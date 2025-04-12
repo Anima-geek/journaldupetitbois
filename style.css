@@ -86,7 +86,7 @@
 } 
 
 body {
-    position: static; /* Laissez le body dans le flux naturel */
+    position: relative
     overflow-y: scroll;
     height: auto;
 
