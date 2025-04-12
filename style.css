@@ -32,11 +32,10 @@
 }
 
 .header {
-    width: 100vw; /* Utilise vw pour une largeur pleine */
-    height: auto; /* Utilise auto pour la hauteur */
-    flex-direction: column;
-    position: absolute; /* Fixer la position pour les boutons */
-    top: 0; /* Ajuster la position si nécessaire */
+    position: fixed; /* Pour fixer le header en haut de la page */
+    top: 0;
+    width: 100%; /* S'assure qu'il occupe toute la largeur */
+    z-index: 10; /* Priorité pour rester visible */
 }
 
 .menu-nav {
@@ -87,9 +86,9 @@
 } 
 
 body {
-    position: relative;
-    overflow-y: scroll; /* Force l'ascenseur vertical */
-    height: auto; /* S'assurer que le body s'adapte au contenu */
+    position: static; /* Laissez le body dans le flux naturel */
+    overflow-y: scroll;
+    height: auto;
 
 }
 
@@ -120,15 +119,16 @@ body {
     font-size: 10vw;
     text-align: center;
     justify-content: center;
-    position: absolute;
     margin-bottom: 30vh; /* Espace suffisant pour descendre la vidéo */
     top: 15vh;
 }
 
 .video-container {
     position: relative;
+    margin-top: 30vh; /* Gère l'espacement sous .presentation */
     text-align: center;
 }
+
 
 .video_montecao {
     width: 90%; /* Réduit légèrement pour un meilleur rendu */
