@@ -126,7 +126,7 @@ body {
 
 .video-container {
     position: relative;
-    margin: 20px auto; /* Centrer le conteneur */
+    margin: 50% auto; /* Centrer le conteneur */
     text-align: center;
 }
 
