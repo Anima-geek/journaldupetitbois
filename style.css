@@ -32,7 +32,7 @@
 }
 
 .header {
-    position: relative; /* Reviens à "relative" si c'était la valeur précédente */
+    position: absolute; 
     top: 0; /* Si nécessaire */
     width: 100%; /* Ajuste à la largeur de la page */
     z-index: 10; /* Assure leur priorité si nécessaire */
@@ -120,7 +120,6 @@ body {
     font-size: 10vw;
     text-align: center;
     justify-content: center;
-    margin-bottom: 30vh; /* Espace suffisant pour descendre la vidéo */
     top: 15vh;
 }
 
