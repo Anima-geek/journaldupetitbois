@@ -126,30 +126,24 @@ body {
 
 .video-container {
     position: relative;
-    margin: 20px auto; /* Centre le conteneur */
+    margin: 20px auto; /* Centrer le conteneur */
     text-align: center;
-    top: 130vh
 }
 
 .video_montecao {
     width: 100%; /* Ajuste à la taille de l'écran */
-    max-width: 350px; /* Limite la largeur sur les grands écrans */
+    max-width: 350px;
     margin-bottom: 20px; /* Ajoute un espace sous la vidéo */
 }
 
 .recette_montecao {
-    position: relative;
-    top: 200vh;
     font-family: "Cookie", cursive;
-    font-size: 5vw; /* Adapte la taille aux écrans mobiles */
+    font-size: 5vw; /* Adapte la taille aux petits écrans */
     color: #000;
-    text-align: center; /* Centre le texte horizontalement */
-    clear: both;
-    margin-top: 20px; /* Espace entre la vidéo et le texte */
+    text-align: center;
+    margin-top: 10px; /* Ajoute un espace suffisant entre la vidéo et le texte */
+    position: relative; /* Laisse le texte se positionner naturellement */
 }
-
-
-
 
 
 .sticker{
