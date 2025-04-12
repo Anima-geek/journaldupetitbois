@@ -32,11 +32,12 @@
 }
 
 .header {
-    position: fixed; /* Pour fixer le header en haut de la page */
-    top: 0;
-    width: 100%; /* S'assure qu'il occupe toute la largeur */
-    z-index: 10; /* Priorité pour rester visible */
+    position: relative; /* Reviens à "relative" si c'était la valeur précédente */
+    top: 0; /* Si nécessaire */
+    width: 100%; /* Ajuste à la largeur de la page */
+    z-index: 10; /* Assure leur priorité si nécessaire */
 }
+
 
 .menu-nav {
     display: flex; /* Ajoute display: flex pour les éléments de menu */
@@ -86,11 +87,11 @@
 } 
 
 body {
-    position: relative
-    overflow-y: scroll;
-    height: auto;
-
+    position: relative; /* Maintient la solution qui fonctionne pour toi */
+    overflow-y: scroll; /* Permet le défilement vertical */
+    margin: 0; /* Supprime toute marge ou padding inutile */
 }
+
 
 .labyrinthe{
     position: absolute;
