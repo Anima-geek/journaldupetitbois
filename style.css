@@ -142,6 +142,11 @@ body {
     z-index: 1; /* Niveau inférieur */
 }
 
+.video_montecao iframe {
+    overflow: hidden;
+}
+
+
 
 
 .sticker{
