@@ -87,7 +87,7 @@
 } 
 
 body {
-    position: relative; /* Maintient la solution qui fonctionne pour toi */
+    position: absolute; /* Maintient la solution qui fonctionne pour toi */
     overflow-y: scroll; /* Permet le défilement vertical */
     margin: 0; /* Supprime toute marge ou padding inutile */
 }
