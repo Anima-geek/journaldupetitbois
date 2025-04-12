@@ -128,7 +128,7 @@ body {
     position: relative;
     margin: 20px auto; /* Centrer le conteneur */
     text-align: center;
-    top: 50%
+    margin-top: 50vh
 }
 
 .video_montecao {
