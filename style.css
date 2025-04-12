@@ -128,6 +128,7 @@ body {
     position: relative;
     margin: 20px auto; /* Centre le conteneur */
     text-align: center;
+    top: 130vh
 }
 
 .video_montecao {
@@ -137,6 +138,8 @@ body {
 }
 
 .recette_montecao {
+    position: relative;
+    top: 200vh;
     font-family: "Cookie", cursive;
     font-size: 5vw; /* Adapte la taille aux écrans mobiles */
     color: #000;
