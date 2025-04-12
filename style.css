@@ -124,7 +124,7 @@ body {
     top: 15vh;
 }
 
-.recette-montecao{
+.recette_montecao{
     position: absolute;
     font-size: 10vw;
     font-family: "Cookie", cursive;
@@ -135,7 +135,7 @@ body {
     left: 25vw
 }
 
-.video-montecao{
+.video_montecao{
     position: absolute;
     top: 130vh;
     left: 7.5vw;
