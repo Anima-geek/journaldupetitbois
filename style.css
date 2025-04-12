@@ -87,6 +87,7 @@
 } 
 
 body {
+    position: relative;
     overflow-y: scroll; /* Force l'ascenseur vertical */
     height: auto; /* S'assurer que le body s'adapte au contenu */
 
@@ -139,23 +140,6 @@ body {
     position: absolute;
     top: 130vh;
     left: 7.5vw;
-}
-
-
-/* Style général */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-}
-
-.en-cours {
-    font-size: 4vw; /* Taille réactive et adaptée aux petits écrans */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue; /* Couleur du texte */
-    text-align: center; /* Centre horizontalement */
-    padding: 5px; /* Espace autour du texte */
 }
 
 
