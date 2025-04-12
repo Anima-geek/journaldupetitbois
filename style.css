@@ -107,7 +107,7 @@ body {
 
 .titre-montecaos{
     position: absolute;
-    font-size: 5vw;
+    font-size: 10vw;
     top: 54vh;
     left: 6.5vw;
 }
@@ -116,7 +116,7 @@ body {
     font-family: "Cookie", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 6vw;
+    font-size: 10vw;
     text-align: center;
     justify-content: center;
     position: absolute;
@@ -124,7 +124,7 @@ body {
 }
 
 .recette-montecao{
-    font-size: 3vw;
+    font-size: 5vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     justify-content: center;
