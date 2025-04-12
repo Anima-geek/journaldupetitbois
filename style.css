@@ -126,7 +126,9 @@ body {
 
 .recette-montecao{
     font-size: 5vw;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     justify-content: center;
     position: absolute;
