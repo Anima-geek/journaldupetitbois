@@ -124,13 +124,13 @@ body {
 }
 
 .recette-montecao{
+    position: absolute;
     font-size: 10vw;
     font-family: "Cookie", cursive;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     justify-content: center;
-    position: absolute;
     top: 200vh;
 }
 
