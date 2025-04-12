@@ -132,12 +132,13 @@ body {
     justify-content: center;
     position: absolute;
     top: 180vh;
-    left: 15vw;
+    left: 16vw;
+    bottom:10vh;
 }
 
 .video-montecao{
     position: absolute;
-    top: 130vh;
+    top: 140vh;
     left: 7.5vw;
 }
 
