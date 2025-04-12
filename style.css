@@ -121,6 +121,7 @@ body {
     text-align: center;
     justify-content: center;
     position: absolute;
+    margin-bottom: 30vh; /* Espace suffisant pour descendre la vidéo */
     top: 15vh;
 }
 
