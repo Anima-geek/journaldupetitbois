@@ -39,7 +39,6 @@
     top: 0; /* Ajuster la position si nécessaire */
 }
 
-
 .menu-nav {
     display: flex; /* Ajoute display: flex pour les éléments de menu */
     flex-direction: row; /* Remet les boutons en ligne */
@@ -73,6 +72,7 @@
     font-weight: bold;
     font-family: "Montserrat Underline", sans-serif;
     font-optical-sizing: auto;
+    font-weight: <weight>;
     font-style: normal;
     text-align: center; /* Centrer le texte */
     background-image: url('doc/fond.png'); /* Remplace par le lien ou le chemin vers ton image */
@@ -109,7 +109,7 @@ body {
     position: absolute;
     font-size: 5vw;
     top: 53vh;
-    left: 14vw;
+    left: 13vw;
 }
 
 .presentation{
@@ -123,27 +123,22 @@ body {
     top: 15vh;
 }
 
-.video-container {
-    position: relative;
-    margin-top: 20vh; /* Gère l'espacement sous .presentation */
-    text-align: center;
-}
-
-
-.video_montecao {
-    width: 90%; /* Réduit légèrement pour un meilleur rendu */
-    max-width: 400px; /* Largeur maximale pour les grands écrans */
-    height: auto; /* Maintient les proportions */
-    margin: 0 auto; /* Centre l'iframe horizontalement */
-}
-
-.recette_montecao {
+.recette-montecao{
+    font-size: 10vw;
     font-family: "Cookie", cursive;
-    font-size: 5vw; /* Adapte la taille aux petits écrans */
-    color: #000;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
-    position: relative; /* Laisse le texte se positionner naturellement */
-    top: 20vh;
+    justify-content: center;
+    position: absolute;
+    top: 600vh;
+    left: 15vw;
+}
+
+.video-montecao{
+    position: absolute;
+    top: 130vh;
+    left: 7.5vw;
 }
 
 
