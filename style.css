@@ -127,7 +127,6 @@ body {
 
 .video-container {
     position: relative;
-    margin-top: 30vh; /* Ajustez cette valeur pour descendre sous .presentation */
     text-align: center;
 }
 
