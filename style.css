@@ -157,14 +157,14 @@ body {
 
 .quilling{
     position: absolute;
-    top: 70vh;
+    top: 60vh;
     left: 10vw;
 }
 
 .titre_quilling{
     position: absolute;
     font-size: 5vw;
-    top: 90vh;
+    top: 80vh;
     left: 10vw;
 }
 
