@@ -98,6 +98,13 @@ body {
     height: auto;
 }
 
+.clé{
+    position:absolute;
+    top: 30vh;
+    left: 45vw;
+    height: auto
+}
+
 
 .montecaos{
     position: absolute;
@@ -131,7 +138,7 @@ body {
     text-align: center;
     justify-content: center;
     position: absolute;
-    top: 170vh;
+    top: 150vh;
     left: 15vw;
 }
 
@@ -157,14 +164,14 @@ body {
 
 .quilling{
     position: absolute;
-    top: 60vh;
+    top: 70vh;
     left: 10vw;
 }
 
 .titre_quilling{
     position: absolute;
     font-size: 5vw;
-    top: 80vh;
+    top: 90vh;
     left: 10vw;
 }
 
@@ -182,7 +189,8 @@ body {
 
 .tuto1{
     position: absolute;
-    top: 180vh;
-    left: 15vw;
+    top: 950vh;
+    left: 30vw;
 }
+
 
